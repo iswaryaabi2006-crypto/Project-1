@@ -1,0 +1,22 @@
+text = "Hello World"
+
+# Length of string
+print(len(text))        # Output: 11
+
+# Convert to uppercase
+print(text.upper())     # Output: HELLO WORLD
+
+# Convert to lowercase
+print(text.lower())     # Output: hello world
+
+# Replace substring
+print(text.replace("World", "Python"))  # Output: Hello Python
+
+# Split string
+print(text.split())     # Output: ['Hello', 'World']
+
+# String slicing
+print(text[0:5])        # Output: Hello
+
+# Find substring
+print(text.find("World"))  # Output: 6
