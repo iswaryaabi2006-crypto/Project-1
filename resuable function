@@ -1,0 +1,29 @@
+def add(a, b):
+    """This function returns the sum of two numbers."""
+    return a + b
+
+def subtract(a, b):
+    """This function returns the difference between two numbers."""
+    return a - b
+
+# --- Main Program ---
+x = 10
+y = 5
+
+print("Addition:", add(x, y))
+print("Subtraction:", subtract(x, y))
+
+# Display docstring
+print("\nDocstring of add function:")
+print(add.__doc__)
+
+
+
+
+💻 Output:
+
+Addition: 15
+Subtraction: 5
+
+Docstring of add function:
+This function returns the sum of two numbers.
