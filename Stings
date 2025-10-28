@@ -1,4 +1,4 @@
-text = "Hello World"
+text = "Hello friend"
 
 # Length of string
 print(len(text))        # Output: 11
